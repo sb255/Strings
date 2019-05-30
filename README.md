@@ -15,4 +15,14 @@ How to Initialize String arrays and all the methods that are used in Strings for
 
 ---------------------------------------------------------------------------------------------
 
+## Some useful String operations: </br>
+
+![alt text](Pictures/String3.png "Strings") </br>
+
+---------------------------------------------------------------------------------------------
+
+![alt text](Pictures/String4.png "Strings") </br>
+
+---------------------------------------------------------------------------------------------
+
 
