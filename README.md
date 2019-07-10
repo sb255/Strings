@@ -1,4 +1,4 @@
-# SB255-Strings
+# Strings
 Everything about Strings, from String arrays to String methods!
 
 
