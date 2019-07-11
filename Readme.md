@@ -8,6 +8,7 @@ s = s.replaceAll("name", "firstName");
 ```
   
 It will replace all the occurance of the word having value 'name' with 'firstName'.
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 2. Comparison:-
   ( (s.isEmpty()) ? "Empty String" : s);
