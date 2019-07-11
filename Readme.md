@@ -11,7 +11,7 @@ s = s.replaceAll("name", "firstName");
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Comparison:
+* #### Comparison:
 
 ```java
 ( (s.isEmpty()) ? "Empty String" : s);
@@ -19,7 +19,7 @@ s = s.replaceAll("name", "firstName");
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Taking the input from user:
+* #### Taking the input from user:
 
 ```java  
 Scanner in = new Scanner(System.in);
@@ -29,7 +29,7 @@ String s=in.nextLine(); /* The letters in the entire line will be considered inc
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Equlaity and Inequality operation in String:
+* #### Equlaity and Inequality operation in String:
 
 ```java
  if(!test.equals("SOS")); 
@@ -39,7 +39,7 @@ String s=in.nextLine(); /* The letters in the entire line will be considered inc
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Substring method:
+* #### Substring method:
 
 ```java
 String sb = "HelloWorld"; 
@@ -56,7 +56,7 @@ Test = "Hel";
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### charAt(i):  
+* #### charAt(i):  
 
  ```java
 if(test.charAt(0)!='S') 
@@ -65,7 +65,7 @@ if(test.charAt(0)!='S')
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Creating an Character Array from a String:
+* #### Creating an Character Array from a String:
 
 ```java
 char name[] = s.toLowerCase().toCharArray(); /* where 's' is a String */
@@ -73,7 +73,7 @@ char name[] = s.toLowerCase().toCharArray(); /* where 's' is a String */
 
 ---------------------------------------------------------------------------------------------
 
-#### Getting the character for a particular Ascii value:
+* #### Getting the character for a particular Ascii value:
   
 ```java
 char character= (char) i;
@@ -83,7 +83,7 @@ char character= (char) i;
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Getting the Ascii value for a particular character in a String:
+* #### Getting the Ascii value for a particular character in a String:
 
 ```java
 char character = sb.charAt(i); 
@@ -93,7 +93,7 @@ int ascii = (int) character;
 
  ------------------------------------------------------------------------------------------------------------------------------------------  
 
-#### Setting the character at particular index in the string:
+* #### Setting the character at particular index in the string:
 
 ```java
 sb.setCharAt(i,newsc);
