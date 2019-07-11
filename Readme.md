@@ -1,7 +1,7 @@
 # String Methods: 
 
 
-#### Replace: 
+* #### Replace: 
 
 ```java
 s = s.replaceAll("name", "firstName");
@@ -19,7 +19,7 @@ s = s.replaceAll("name", "firstName");
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-####Taking the input from user:
+#### Taking the input from user:
 
 ```java  
 Scanner in = new Scanner(System.in);
