@@ -1,7 +1,7 @@
 # String Methods: 
 
 
-### Replace: 
+#### Replace: 
 
 ```java
 s = s.replaceAll("name", "firstName");
