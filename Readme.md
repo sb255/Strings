@@ -115,7 +115,7 @@ Pattern p = Pattern.compile(".+@gmail\\.com$");
 
 Matcher matcher = p.matcher(s);
 
-if (matcher.find()){
+if(matcher.find()){
     System.out.println("The Person has a Gmail account!"); 
 }
 
