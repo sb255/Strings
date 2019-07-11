@@ -103,7 +103,24 @@ sb.setCharAt(i,newsc);
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+# String Operations: 
 
+#### Matching with a regular expression:
+
+```java
+
+String s = "*******@gmail.com"
+
+Pattern p = Pattern.compile(".+@gmail\\.com$");
+
+Matcher matcher = p.matcher(s);
+
+if (matcher.find()){
+    System.out.println("The Person has a Gmail account!"); 
+}
+
+```
+---------------------------------------------------------------------------------------------
 
 
 
