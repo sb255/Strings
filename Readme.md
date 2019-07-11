@@ -1,5 +1,6 @@
 # String Methods: 
 
+***Stacks** and **HashMaps** are the two important Data Structures for solving String questions, always consider 'em, have a look at some String methods:* 
 
 * #### Replace: 
 
