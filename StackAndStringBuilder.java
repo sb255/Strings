@@ -1,10 +1,10 @@
 /* 
- *   String Question
- *
- *   Input: "TOY"
- *
- *   Output: return a String "Y-O" for the given input.
- *
+   String Question
+
+   Input: "TOY"
+
+   Output: return a String "Y-O" for the given input.
+
  */
  
 import java.util.*;

@@ -1,11 +1,11 @@
 /*  String Question
- * 
- *  Uppercaseing the selected letters in a Stirng!
- * 
- *  Input: helloworld
- * 
- *  Output: HelloWorld
- */
+  
+    Uppercaseing the selected letters in a Stirng!
+   
+    Input: helloworld
+   
+    Output: HelloWorld
+*/
 
 import java.util.*;
 

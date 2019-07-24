@@ -1,16 +1,16 @@
 /*
- * STUDENT RATING PROGRAM
- * 
- * INPUT:
- * 3
- * Student1 30
- * Student2 50
- * Student3 100
- *
- * OUTPUT:
- * Student3 100
- * Student2 50
- * Student1 30
+   STUDENT RATING PROGRAM
+  
+   INPUT:
+   3
+   Student1 30
+   Student2 50
+   Student3 100
+  
+   OUTPUT:
+   Student3 100
+   Student2 50
+   Student1 30
 */
 
 
