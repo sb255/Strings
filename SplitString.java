@@ -1,7 +1,9 @@
-/* use of split(" ") in Strings */
+/* 
+ * use of split(" ") in Strings 
+ * 
+ */
 
 import java.util.*;
-
 
 public class SplitString{
         
