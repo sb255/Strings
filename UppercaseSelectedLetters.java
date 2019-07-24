@@ -1,15 +1,16 @@
-// String Question
-
-// Uppercaseing the selected letters in a Stirng!
-
-// Input: helloworld
-
-// Output: HelloWorld
+/* String Question
+ *
+ * Uppercaseing the selected letters in a Stirng!
+ *
+ * Input: helloworld
+ *
+ * Output: HelloWorld
+*/
 
 import java.util.*;
 
 
-public class Test{
+public class UpperCaseSelectedLetters{
 
     
     public static void main(String[] args){

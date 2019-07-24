@@ -1,13 +1,16 @@
-// String Question
-
-// Input: "TOY"
-
-// Output: return a String "Y-O" for the given input.
-
+/* 
+ *   String Question
+ *
+ *   Input: "TOY"
+ *
+ *   Output: return a String "Y-O" for the given input.
+ *
+*/
+ 
 import java.util.*;
 
 
-public class Test{
+public class StackAndStringBuilder{
 
     static String StringManipulation(String s){
     

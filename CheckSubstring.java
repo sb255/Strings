@@ -1,7 +1,7 @@
 
 /* Check if B is a substring of A or not, if yes then return the index of first occurance! */
 
-public class Test {
+public class CheckSubstring {
 
     int subString(String A, String B) {
         

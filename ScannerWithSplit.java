@@ -1,25 +1,25 @@
 /*
-STUDENT RATING PROGRAM
-
-INPUT:
-3
-Student1 30
-Student2 50
-Student3 100
-
-OUTPUT:
-Student3 100
-Student2 50
-Student1 30
+ * STUDENT RATING PROGRAM
+ * 
+ * INPUT:
+ * 3
+ * Student1 30
+ * Student2 50
+ * Student3 100
+ *
+ * OUTPUT:
+ * Student3 100
+ * Student2 50
+ * Student1 30
 */
 
 
 import java.util.*;
 import java.util.Map.Entry;
 
-public class Test{
+public class ScannerWithSplit{
     
-    public static  void orderWithRating(){
+    public static void orderWithRating(){
         
         Scanner sc = new Scanner(System.in);
 

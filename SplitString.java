@@ -1,9 +1,9 @@
-// use of split(" ") in Strings
+/* use of split(" ") in Strings */
 
 import java.util.*;
 
 
-public class Test{
+public class SplitString{
         
     public static void main(String[] args){
         
