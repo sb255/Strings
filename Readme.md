@@ -1,112 +1,81 @@
-# String Methods:
+<p align="center">
+  <img src=Pictures/Heading.png  title="Strings in Java">
+</p>
 
-***Stacks** and **HashMaps** are the two important Data Structures for solving String questions, always consider 'em, have a look at some String methods:* 
 
-* #### Replace: 
+#### `String is a class in Java, it has following methods:`
 
-```java
-s = s.replaceAll("name", "firstName");
-```
-  
-#### It will replace all the occurance of the word having value 'name' with 'firstName'.
+| SN | String Method | Method Description | Return Type
+| :----: | :---: | :---: | :---: |
+| 1 | `length()` | It returns the length of the String | `int`
+| 2 | `charAt(int index)` | It returns the character from the String at mentioned Index | `char`
+| 3 | `toCharArray()` | Converts the String into a char array | `char[]`
+| 4 | `setCharAt(int index, char c)` | Sets the character at the specified index of the String | `void`
+| 5 | `toLowerCase()` | Converts all the characters of the String into lower case | `String`
+| 6 | `toUpperCase()` | Converts all the characters of the String into upper case | `String`
+| 7 | `isEmpty()` | It returns true is the String is not null else false | `boolean`
+| 8 | `substring(int start, int end)` | It returns the String starting from index 'start' and ending at index 'end - 1'  | `String`
+| 9 | `substring(int start)` | It returns the String starting at index 'start' until the last character of the String | `String`
+| 10 | `equals()` | It returns true if the Strings are same else false | `boolean`
+| 11 | `replace(char a, char b)` | It replace all the 'a' character occurrence with 'b' | `String`
+| 12 | `replaceAll(String regular_expression, String replacement)` | Replace all the character sequence matching 'regular_expression' with 'replacement' | `String`
+| 12 | `replaceAll("//s", "")` | Removes all the white spaces from the String | `String`
+| 13 | `trim()` | It removes the leading and trailing spaces from the String | `void`
+| 14 | `split(String regular_expression)` | Splits the String at every occurrence of specified regular expression | `String[]`
+| 15 | `matches(String regular_expression)` | It returns true if the String matches regular expression else false | `boolean`
+| 16 | `indexOf(String s)` | It returns the index of the given String 's' | `int`
+| 17 | `indexOf(String s, int startIndex)` | It returns the index of the given String when started from 'startIndex' | `int`
+| 18 | `indexOf(char c)` | It returns the index of the given character in the String | `int`
+| 19 | `indexOf(char c, int startIndex)` | It returns the index of the given character in the String when started from 'startIndex' | `int`
+| 20 | `subSequence(int start, int end)` | It returns character sequence from index 'start' to index 'end-1' | `charSequence`
+| 21 | `contains(CharSequence char_set)` | It returns true is the character sequence matches else false | `boolean`
 
-------------------------------------------------------------------------------------------------------------------------------------------
 
-* #### Comparison:
 
-```java
-( (s.isEmpty()) ? "Empty String" : s);
-```
+#### `StringBuilder is a class in Java, it creates mutable sequence of characters or a mutable String. It has following methods:`
 
-------------------------------------------------------------------------------------------------------------------------------------------
+| SN | StringBuilder Methods | Method Description | Return Type
+| :----: | :---: | :---: | :---: |
+| 1 | `reverse()` | It reverses the sequence of the characters | `StringBuilder`
+| 2 | `append(char c)` | Appends the character to this String | `void`
+| 3 | `append(String s)` | Appends the String to this String | `void`
+| 4 | `toString()` | It returns the String representation of StringBuilder object | `String`
+| 5 | `length()` | It returns the length of the sequence of characters | `int`
+| 6 | `setCharAt(int index, char c)` | It sets the character at the specified index and return a new String | `StringBuilder`
+| 7 | `delete(int startIndex, int endIndex)` | It returns the String Builder object after deleting the characters at the specified Index range | `StringBuilder`
+| 8 | `deleteCharAt(int index)` | It deletes the character at the specified Index from the sequence of characters | `StringBuilder`
+| 9 | `replace(int startIndex, int endIndex, String s)` | It replace the sequence of characters with String 's' in the specified Index range | `StringBuilder`
 
-* #### Taking the input from user:
+## `Implementations:`
+
+#### `Taking the input from user:`
 
 ```java  
 Scanner in = new Scanner(System.in);
-String s = in.next(); /* Spaces will not be tackled */ 
+String s = in.next(); /* Spaces will not be tackled */
 String s=in.nextLine(); /* The letters in the entire line will be considered including spaces */
-```
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
-* #### Equlaity and Inequality operation in String:
-
-```java
- if(!test.equals("SOS")); 
-```
-
-#### equals method is used to check whether the Strings are equal or not!
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
-* #### Substring method:
-
-```java
-String sb = "HelloWorld"; 
-``` 
-
-```java
-String Test = sb.substring(0,3); 
-```
-
-```java
-Test = "Hel"; 
-```
-#### Remember that the index '3' will not be considered on the substring, it is omitted.
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
-* #### charAt(i):  
-
- ```java
-if(test.charAt(0)!='S') 
-```
-#### where 'test' is a String.
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
-* #### Creating an Character Array from a String:
-
-```java
-char name[] = s.toLowerCase().toCharArray(); /* where 's' is a String */
 ```
 
 ---------------------------------------------------------------------------------------------
 
-* #### Getting the character for a particular Ascii value:
-  
+#### `Getting the character for a particular Ascii value:`
+
 ```java
 char character= (char) i;
 ```
 
-#### where i can be between 97 and 122 for a-z and can be between 65 and 90 for A-Z. 
-
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-* #### Getting the Ascii value for a particular character in a String:
+#### `Getting the Ascii value for a particular character in a String:`
 
 ```java
-char character = sb.charAt(i); 
-int ascii = (int) character; 
+char character = sb.charAt(i);
+int ascii = (int) character;
 ```
-#### (int) is a type casting which is not required.
-
- ------------------------------------------------------------------------------------------------------------------------------------------  
-
-* #### Setting the character at particular index in the string:
-
-```java
-sb.setCharAt(i,newsc);
-```
-
-#### where sb is the string and i is the index. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-# String Operations: 
-
-#### Matching with a regular expression:
+#### `Matching with a regular expression:`
 
 ```java
 
@@ -117,15 +86,8 @@ Pattern p = Pattern.compile(".+@gmail\\.com$");
 Matcher matcher = p.matcher(s);
 
 if(matcher.find()){
-    System.out.println("The Person has a Gmail account!"); 
+    System.out.println("The Person has a Gmail account!");
 }
 
 ```
 ---------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
