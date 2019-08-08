@@ -32,7 +32,7 @@
 
 
 
-#### `StringBuilder is a class in Java, it creates mutable sequence of characters or a mutable String. It has following methods:`
+#### `StringBuilder is a class in Java, it creates sequence of characters that are mutable. It has following methods:`
 
 | SN | StringBuilder Methods | Method Description | Return Type
 | :----: | :---: | :---: | :---: |
