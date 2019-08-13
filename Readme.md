@@ -5,7 +5,7 @@
 
 #### `String is a class in Java, it has following methods:`
 
-| SN | String Method | Method Description | Return Type
+| SN | String Method | Method Usage | Return Type
 | :----: | :---: | :---: | :---: |
 | 1 | `length()` | It returns the length of the String | `int`
 | 2 | `charAt(int index)` | It returns the character from the String at mentioned Index | `char`
@@ -19,22 +19,27 @@
 | 10 | `equals()` | It returns true if the Strings are same else false | `boolean`
 | 11 | `replace(char a, char b)` | It replace all the 'a' character occurrence with 'b' | `String`
 | 12 | `replaceAll(String regular_expression, String replacement)` | Replace all the character sequence matching 'regular_expression' with 'replacement' | `String`
-| 12 | `replaceAll("//s", "")` | Removes all the white spaces from the String | `String`
-| 13 | `trim()` | It removes the leading and trailing spaces from the String | `void`
-| 14 | `split(String regular_expression)` | Splits the String at every occurrence of specified regular expression | `String[]`
-| 15 | `matches(String regular_expression)` | It returns true if the String matches regular expression else false | `boolean`
-| 16 | `indexOf(String s)` | It returns the index of the given String 's' | `int`
-| 17 | `indexOf(String s, int startIndex)` | It returns the index of the given String when started from 'startIndex' | `int`
-| 18 | `indexOf(char c)` | It returns the index of the given character in the String | `int`
-| 19 | `indexOf(char c, int startIndex)` | It returns the index of the given character in the String when started from 'startIndex' | `int`
-| 20 | `subSequence(int start, int end)` | It returns character sequence from index 'start' to index 'end-1' | `charSequence`
-| 21 | `contains(CharSequence char_set)` | It returns true is the character sequence matches else false | `boolean`
+| 13 | `replaceAll("//w", "")` | It used for removing all the word characters from the String | `String`
+| 14 | `replaceAll("//W", "")` | It used for removing all the characters from the String that are not word characters | `String`
+| 15 | `replaceAll("//s", "")` | It used for removing all the white spaces from the String | `String`
+| 16 | `replaceAll("[-+.^:,]","")` | It used for removing all the special characters from the String | `String`
+| 17 | `replaceAll("\\p{Punct}", "")` | It used for removing all the punctuations from the String | `String`
+| 18 | `replaceAll("\\p{Blank}","")` | It used for removing all the spaces and tabs from the String | `String`
+| 19 | `trim()` | It removes the leading and trailing spaces from the String | `void`
+| 20 | `split(String regular_expression)` | Splits the String at every occurrence of specified regular expression | `String[]`
+| 21 | `matches(String regular_expression)` | It returns true if the String matches regular expression else false | `boolean`
+| 22 | `indexOf(String s)` | It returns the index of the given String 's' | `int`
+| 23 | `indexOf(String s, int startIndex)` | It returns the index of the given String when started from 'startIndex' | `int`
+| 24 | `indexOf(char c)` | It returns the index of the given character in the String | `int`
+| 25 | `indexOf(char c, int startIndex)` | It returns the index of the given character in the String when started from 'startIndex' | `int`
+| 26 | `subSequence(int start, int end)` | It returns character sequence from index 'start' to index 'end-1' | `charSequence`
+| 27 | `contains(CharSequence char_set)` | It returns true is the character sequence matches else false | `boolean`
 
 
 
 #### `StringBuilder is a class in Java, it creates sequence of characters that are mutable. It has following methods:`
 
-| SN | StringBuilder Methods | Method Description | Return Type
+| SN | StringBuilder Methods | Method Usage | Return Type
 | :----: | :---: | :---: | :---: |
 | 1 | `reverse()` | It reverses the sequence of the characters | `StringBuilder`
 | 2 | `append(char c)` | Appends the character to this String | `void`
