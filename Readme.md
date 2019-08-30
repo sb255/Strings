@@ -51,6 +51,31 @@
 | 8 | `deleteCharAt(int index)` | It deletes the character at the specified Index from the sequence of characters | `StringBuilder`
 | 9 | `replace(int startIndex, int endIndex, String s)` | It replace the sequence of characters with String 's' in the specified Index range | `StringBuilder`
 
+### `Regular Expressions in Java:`
+
+> `\d` represents any digit in regular expression but `\` is a backlash character in java so to convert `\` into a literal we add another `\` so that `\d` can be considered as literal in regular expression!
+
+Check all these regular expressions on a Java program
+
+| SN | Java Regex String | Description
+| :----: | :---: | :---:
+| 1 | `[A-Za-z]` | It matches a single character with all the uppercase and lowercase characters
+| 2 | `[A-Za-z]?` | It matches zero or one character with all the uppercase and lowercase characters
+| 3 | `[A-Za-z]*` | It matches zero or more than zero characters with all the uppercase and lowercase characters
+| 4 | `[^A-Za-z]+` | It matches a single or more characters with everything except A-Za-z
+| 5 | `[^A-Za-z]{2}` | It matches exactly two characters with everything except A-Za-z
+| 6 | `[A-Za-z0-9]` | It matches all the uppercase and lowercase alphanumeric characters
+| 7 | `[A-Za-z0-9]{1,5}` | It matches minimum 1 and maximum 5 uppercase and lowercase alphanumeric characters
+| 8 | `[A-Za-z !,?._'@]+` | It matches 1 or more than 1 lowercase and uppercase alphabets along with special characters
+| 9 | `[-+.^:,]` | It matches a single character with all the special characters
+| 10 | `.` | It matches with a character of any kind
+| 11 | `\\d{1}` | It matches with a single digit
+| 12 | `\\d{1,3}` | It matches with a numerical value having 1 to 3 digits
+| 13 | `[\\d]{1}` | It matches with a single digit
+| 14 | `[0-5]` | It matches with a single digit ranging from 0 to 5
+| 15 | `\\s` | It matches with single white space character
+| 16 | `[\\s]` | It matches with single white space character
+
 ## `Implementations:`
 
 #### `Taking the input from user:`
