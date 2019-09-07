@@ -17,23 +17,24 @@
 | 8 | `substring(int start, int end)` | It returns the String starting from index 'start' and ending at index 'end - 1'  | `String`
 | 9 | `substring(int start)` | It returns the String starting at index 'start' until the last character of the String | `String`
 | 10 | `equals()` | It returns true if the Strings are same else false | `boolean`
-| 11 | `replace(char a, char b)` | It replace all the 'a' character occurrence with 'b' | `String`
-| 12 | `replaceAll(String regular_expression, String replacement)` | Replace all the character sequence matching 'regular_expression' with 'replacement' | `String`
-| 13 | `replaceAll("//w", "")` | It used for removing all the word characters from the String | `String`
-| 14 | `replaceAll("//W", "")` | It used for removing all the characters from the String that are not word characters | `String`
-| 15 | `replaceAll("//s", "")` | It used for removing all the white spaces from the String | `String`
-| 16 | `replaceAll("[-+.^:,]","")` | It used for removing all the special characters from the String | `String`
-| 17 | `replaceAll("\\p{Punct}", "")` | It used for removing all the punctuations from the String | `String`
-| 18 | `replaceAll("\\p{Blank}","")` | It used for removing all the spaces and tabs from the String | `String`
-| 19 | `trim()` | It removes the leading and trailing spaces from the String | `void`
-| 20 | `split(String regular_expression)` | Splits the String at every occurrence of specified regular expression | `String[]`
-| 21 | `matches(String regular_expression)` | It returns true if the String matches regular expression else false | `boolean`
-| 22 | `indexOf(String s)` | It returns the index of the given String 's' | `int`
-| 23 | `indexOf(String s, int startIndex)` | It returns the index of the given String when started from 'startIndex' | `int`
-| 24 | `indexOf(char c)` | It returns the index of the given character in the String | `int`
-| 25 | `indexOf(char c, int startIndex)` | It returns the index of the given character in the String when started from 'startIndex' | `int`
-| 26 | `subSequence(int start, int end)` | It returns character sequence from index 'start' to index 'end-1' | `charSequence`
-| 27 | `contains(CharSequence char_set)` | It returns true is the character sequence matches else false | `boolean`
+| 11 | `compareTo(String s2)` | It returns -1 if first String is lexicographically smaller than String s2 else it returns 1. It returns 0 in case if both the Strings are same lexicographically | `int`
+| 12 | `replace(char a, char b)` | It replace all the 'a' character occurrence with 'b' | `String`
+| 13 | `replaceAll(String regular_expression, String replacement)` | Replace all the character sequence matching 'regular_expression' with 'replacement' | `String`
+| 14 | `replaceAll("//w", "")` | It used for removing all the word characters from the String | `String`
+| 15 | `replaceAll("//W", "")` | It used for removing all the characters from the String that are not word characters | `String`
+| 16 | `replaceAll("//s", "")` | It used for removing all the white spaces from the String | `String`
+| 17 | `replaceAll("[-+.^:,]","")` | It used for removing all the special characters from the String | `String`
+| 18 | `replaceAll("\\p{Punct}", "")` | It used for removing all the punctuations from the String | `String`
+| 19 | `replaceAll("\\p{Blank}","")` | It used for removing all the spaces and tabs from the String | `String`
+| 20 | `trim()` | It removes the leading and trailing spaces from the String | `void`
+| 21 | `split(String regular_expression)` | Splits the String at every occurrence of specified regular expression | `String[]`
+| 22 | `matches(String regular_expression)` | It returns true if the String matches regular expression else false | `boolean`
+| 23 | `indexOf(String s)` | It returns the index of the given String 's' | `int`
+| 24 | `indexOf(String s, int startIndex)` | It returns the index of the given String when started from 'startIndex' | `int`
+| 25 | `indexOf(char c)` | It returns the index of the given character in the String | `int`
+| 26 | `indexOf(char c, int startIndex)` | It returns the index of the given character in the String when started from 'startIndex' | `int`
+| 27 | `subSequence(int start, int end)` | It returns character sequence from index 'start' to index 'end-1' | `charSequence`
+| 28 | `contains(CharSequence char_set)` | It returns true is the character sequence matches else false | `boolean`
 
 
 
